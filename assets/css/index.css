@@ -1,0 +1,96 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.index-child {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-lightgreen);
+  top: 348px;
+  left: 583px;
+  width: 75px;
+  height: 37px;
+}
+.index-child,
+.index-inner,
+.index-item {
+  position: absolute;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.index-item {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-lightcoral);
+  top: 349px;
+  left: 701px;
+  width: 75px;
+  height: 37px;
+}
+.index-inner {
+  top: 268px;
+  left: 511px;
+  background-color: var(--color-thistle-200);
+  width: 338px;
+  height: 50px;
+}
+.hi-momo,
+.no,
+.will-you-go,
+.yes {
+  position: absolute;
+  top: 349px;
+  left: 600px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 46px;
+  height: 27px;
+}
+.hi-momo,
+.no,
+.will-you-go {
+  left: 724px;
+  width: 34px;
+  height: 29px;
+}
+.hi-momo,
+.will-you-go {
+  top: 275px;
+  left: 521px;
+  width: 319px;
+  height: 36px;
+}
+.hi-momo {
+  top: 175px;
+  left: 415px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  text-align: center;
+  width: 530px;
+  height: 62px;
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-thistle-100);
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-hind);
+}
+.index1.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}

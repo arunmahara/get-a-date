@@ -6,9 +6,9 @@
   <button class="page-3-child"></button
   ><button class="page-3-item"></button>
   <div class="page-3-inner"></div>
-  <div class="yes3"><a href="{% url 'acceptence' %}" style="text-decoration: none; color: black;">Yes</a></div>
+  <div class="yes3"><a href="{% url 'acceptence' %}" style="text-decoration: none; color: black;">Yes</a>{% if count > 0 %}<p style="display: inline; font-size: 24px; color: #ef0808; margin-left: 40px;">Please&nbsp;x{{count}}</p>{% endif %}</div>
   <div class="no3"><a href="{% url 'denial3' %}" style="text-decoration: none; color: black;">No</a></div>
-  <div class="will-you-go3">Will you go on a date with me?</div>
+  <div class="will-you-go3" style="font-size: 17px; font-weight: 600; margin-top: 5px;">Would you like to go out on a date with me?</div>
   <div class="hi-momo3">Hi, {{name}}</div>
   <img class="aaaa-icon2" alt="" src="{% static 'public/aaaa@2x.png' %}" /><img
     class="aaaaa-1-icon2"
