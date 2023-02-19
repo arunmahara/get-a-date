@@ -1,6 +1,18 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+def ask(request):
+    return render(request, 'index.html')
 
-# Create your views here.
-def index(request):
-    return HttpResponse("hello")
+def acceptence(request):
+    return render(request, 'Page4.html')
+
+def denial(request):
+    return render(request, 'Page1.html')
+
+def denial2(request):
+    return render(request, 'Page2.html')
+
+def denial3(request):
+    return render(request, 'Page3.html')
+
+def thank_you(request):
+    return render(request, 'Page5.html')

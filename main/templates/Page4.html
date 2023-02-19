@@ -1,0 +1,63 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="page-4">
+  <form action="{% url 'thank-you' %}" method="POST" class="rectangle-parent">
+    {% csrf_token %}
+    <div class="group-child"></div>
+    <div class="confirmation">Confirmation</div>
+    <select class="group-item" id="when" name="when" required>
+      <option value="" disabled selected>When</option>
+      <option value="tomorrow">Tomorrow</option>
+      <option value="sunday">Sunday</option>
+      <option value="monday">Monday</option>
+      <option value="tuesday">Tuesday</option>
+      <option value="wednesday">Wednesday</option>
+      <option value="thursday">Thursday</option>
+      <option value="friday">Friday</option>
+      <option value="saturday">Saturday</option>
+    </select>
+    <input class="group-inner" type="email" placeholder=" Email Address" required/>
+    <input type="submit" class="rectangle-button" class="btn btn-primary" value="Send" style="font-size: 20px; color: azure;">
+  </form>
+  <img class="icon" alt="" src="{% static 'public/41-1@2x.png' %}" /><img
+    class="icon1"
+    alt=""
+    src="{% static 'public/4-2@2x.png' %}"
+  /><img class="icon2" alt="" src="{% static 'public/44444444444-1@2x.png' %}" /><img
+    class="icon3"
+    alt=""
+    src="{% static 'public/4444444444-5@2x.png' %}"
+  /><img class="icon4" alt="" src="{% static 'public/44444444-445@2x.png' %}" /><img
+    class="icon5"
+    alt=""
+    src="{% static 'public/444-44444445@2x.png' %}"
+  /><img class="icon6" alt="" src="{% static 'public/444444444444444-1@2x.png' %}" /><img
+    class="icon7"
+    alt=""
+    src="{% static 'public/44444444444-4445@2x.png' %}"
+  /><img
+    class="icon8"
+    alt=""
+    src="{% static 'public/44444444444444444444-1@2x.png' %}"
+  /><img class="icon9" alt="" src="{% static 'public/4444444-44444445@2x.png' %}" /><img
+    class="icon10"
+    alt=""
+    src="{% static 'public/4444444444444-4444445@2x.png' %}"
+  /><img
+    class="icon11"
+    alt=""
+    src="{% static 'public/44444444444444-444445@2x.png' %}"
+  /><img
+    class="icon12"
+    alt=""
+    src="{% static 'public/444444444444444-44445@2x.png' %}"
+  /><img class="icon13" alt="" src="{% static 'public/42-1@2x.png' %}" /><img
+    class="icon14"
+    alt=""
+    src="{% static 'public/44444444444444444-445@2x.png' %}"
+  /><img class="icon15" alt="" src="{% static 'public/444444444444-44444445@2x.png' %}" />
+</div>
+
+{% endblock %}

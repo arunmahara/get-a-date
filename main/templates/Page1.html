@@ -1,0 +1,24 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="page-1">
+  <div class="page-1-child"></div>
+  <button class="page-1-item"></button>
+  <div class="page-1-inner"></div>
+  <div class="yes1"><a href="{% url 'acceptence' %}" style="text-decoration: none; color: black;">Yes</a></div>
+  <div class="no1"><a href="{% url 'denial2' %}" style="text-decoration: none; color: black;">No</a></div>
+  <div class="will-you-go1">Will you go on a date with me?</div>
+  <div class="hi-momo1">Hi, Momo</div>
+  <img class="aaaa-icon" alt="" src="{% static 'public/aaaa@2x.png' %}" /><img
+    class="aaaaa-1-icon"
+    alt=""
+    src="{% static 'public/aaaaa-1@2x.png' %}"
+  /><img class="aa-1-icon" alt="" src="{% static 'public/aa-1@2x.png' %}" /><img
+    class="aaa-1-icon"
+    alt=""
+    src="{% static 'public/aaa-1@2x.png' %}"
+  /><img class="a-1-icon" alt="" src="{% static 'public/a-1@2x.png' %}" />
+</div>
+
+{% endblock %}

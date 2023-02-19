@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--form-bg);
+  width: 285px;
+  height: 205px;
+}
+.confirmation {
+  position: absolute;
+  top: 12px;
+  left: 65px;
+  font-size: var(--font-size-sm);
+  line-height: 29.91px;
+  font-weight: 500;
+  font-family: var(--font-karla);
+  color: var(--paragraph);
+  text-align: center;
+  display: inline-block;
+  width: 152px;
+  height: 21px;
+}
+.group-item {
+  border: 1.5px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  top: 55.14px;
+  left: 24.43px;
+  box-sizing: border-box;
+  width: 234.89px;
+  height: 32.52px;
+}
+.group-inner,
+.group-item,
+.rectangle-button {
+  position: absolute;
+  border-radius: var(--br-md);
+}
+.group-inner {
+  border: 1.5px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  top: 102.53px;
+  left: 24.43px;
+  box-sizing: border-box;
+  width: 234.89px;
+  height: 32.52px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #84c7ae;
+  top: 153px;
+  left: 85px;
+  width: 105px;
+  height: 32px;
+}
+
+.rectangle-parent {
+  position: absolute;
+  top: 164px;
+  left: 565px;
+  width: 285px;
+  height: 205px;
+}
+.email-address {
+  top: 273px;
+  left: 597px;
+  line-height: 19.5px;
+}
+.email-address,
+.icon,
+.when {
+  position: absolute;
+}
+.when {
+  top: 225px;
+  left: 597px;
+  line-height: 19.5px;
+}
+.icon {
+  top: 197px;
+  left: 1120px;
+  width: 179px;
+  height: 173px;
+  object-fit: cover;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  position: absolute;
+  top: 23px;
+  left: 136px;
+  width: 188px;
+  height: 163px;
+  object-fit: cover;
+}
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  top: 235px;
+  left: 258px;
+  width: 131px;
+  height: 192px;
+}
+.icon3,
+.icon4,
+.icon5 {
+  top: 390px;
+  left: 66px;
+  width: 182px;
+  height: 183px;
+}
+.icon4,
+.icon5 {
+  top: 424px;
+  left: 503px;
+  width: 171px;
+  height: 179px;
+}
+.icon5 {
+  top: 370px;
+  left: 875px;
+  width: 184px;
+  height: 221px;
+}
+.icon10,
+.icon6,
+.icon7,
+.icon8,
+.icon9 {
+  position: absolute;
+  top: 41px;
+  left: 355px;
+  width: 185px;
+  height: 178px;
+  object-fit: cover;
+}
+.icon10,
+.icon7,
+.icon8,
+.icon9 {
+  top: 427px;
+  left: 707px;
+  width: 135px;
+  height: 208px;
+}
+.icon10,
+.icon8,
+.icon9 {
+  top: 17px;
+  left: 879px;
+  width: 148px;
+  height: 177px;
+}
+.icon10,
+.icon9 {
+  top: 216px;
+  left: 59px;
+  width: 178px;
+  height: 144px;
+}
+.icon10 {
+  top: 462px;
+  left: 285px;
+  width: 199px;
+}
+.icon11,
+.icon12,
+.icon13,
+.icon14,
+.icon15 {
+  position: absolute;
+  top: 17px;
+  left: 618px;
+  width: 206px;
+  height: 133px;
+  object-fit: cover;
+}
+.icon12,
+.icon13,
+.icon14,
+.icon15 {
+  top: 252px;
+  left: 405px;
+  width: 148px;
+  height: 158px;
+}
+.icon13,
+.icon14,
+.icon15 {
+  top: 216px;
+  left: 899px;
+  width: 193px;
+  height: 133px;
+}
+.icon14,
+.icon15 {
+  top: 18px;
+  left: 1073px;
+  width: 155px;
+  height: 163px;
+}
+.icon15 {
+  top: 406px;
+  left: 1092px;
+  width: 197px;
+  height: 185px;
+}
+.page-4 {
+  position: relative;
+  background-color: var(--color-thistle-100);
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-karla);
+}

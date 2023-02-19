@@ -1,0 +1,26 @@
+:root {
+  /* fonts */
+  --font-hind: Hind;
+  --font-karla: Karla;
+
+  /* font sizes */
+  --font-size-xs: 16px;
+  --font-size-sm: 23.01px;
+  --font-size-base: 25px;
+  --font-size-lg: 40px;
+
+  /* Colors */
+  --color-thistle-100: #ffd6ea;
+  --color-thistle-200: #f1c0da;
+  --color-black: #000;
+  --color-lightcoral: #f07272;
+  --color-lightgreen: #96db7e;
+  --color-gray-100: rgba(0, 0, 0, 0.1);
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-white: #fff;
+  --paragraph: #32403b;
+  --form-bg: #f6fbf9;
+
+  /* border radiuses */
+  --br-md: 5px;
+}
