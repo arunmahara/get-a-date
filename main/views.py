@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.conf import settings
 from django.core.mail import EmailMessage
 
-name = "Momo"
+name = "Sugam"
 count = 0
 
 def ask(request):
