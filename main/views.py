@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.conf import settings
 from django.core.mail import EmailMessage
 
-name = "Sugam"
+name = "Jessica"
 count = 0
 
 def ask(request):
@@ -30,10 +30,10 @@ def acceptence(request):
         date = request.POST.get('when')
         email = request.POST.get('email')
     
-        email_body = 'Hi, '+ name + "\nI hope this email finds you well. Since you have reached here, it's clear that you've made a good decision. \nThis is an confirmation for our first date, which is scheduled for " + date + ' this week. Looking forward to getting to know you better over some coffee and conversation! \n\nThanks and regards, \nArun'
+        email_body = 'Hi, '+ name + "\nI hope this email finds you well. Since you have reached here, it's clear that you've made a good decision. \nThis is an confirmation for our pizza date, which is scheduled for " + date + '. Looking forward to getting to know you better over some pizza and conversation! \n\nThanks and regards, \nArun'
 
         email_receive = EmailMessage(
-            'Date Corfirmation Mail',   #email subject
+            'Pizza Date Confirmation Mail',   #email subject
             email_body,  #message
             settings.EMAIL_HOST_USER,  #form
             [email] #to
