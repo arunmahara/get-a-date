@@ -152,13 +152,13 @@ body {
   height: 38px;
 }
 .check-your-mail,
-.momo,
+.ruks,
 .thank-you {
   position: absolute;
   line-height: 29.91px;
   display: inline-block;
 }
-.momo {
+.ruks {
   top: 280px;
   left: 597px;
   font-size: var(--font-size-base);
@@ -170,7 +170,7 @@ body {
 .check-your-mail {
   top: 337px;
   left: 654px;
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 300;
   color: var(--color-black);
   width: 143px;

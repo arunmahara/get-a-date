@@ -44,7 +44,7 @@ body {
   width: 338px;
   height: 50px;
 }
-.hi-momo,
+.hi-ruks,
 .no,
 .will-you-go,
 .yes {
@@ -56,21 +56,21 @@ body {
   width: 46px;
   height: 27px;
 }
-.hi-momo,
+.hi-ruks,
 .no,
 .will-you-go {
   left: 724px;
   width: 34px;
   height: 29px;
 }
-.hi-momo,
+.hi-ruks,
 .will-you-go {
   top: 275px;
   left: 521px;
   width: 319px;
   height: 36px;
 }
-.hi-momo {
+.hi-ruks {
   top: 175px;
   left: 415px;
   font-size: var(--font-size-lg);
