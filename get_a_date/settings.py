@@ -129,5 +129,5 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_TO = os.environ.get('EMAIL_TO')
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://ruks.railway.app'
+    'https://ruks.up.railway.app'
 ]
