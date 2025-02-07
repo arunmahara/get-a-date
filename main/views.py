@@ -28,7 +28,7 @@ def acceptence(request):
     if request.method == "POST":
         print("\n********** form filled **********\n")
         # date = request.POST.get('when')
-        # email = request.POST.get('email')
+        email = request.POST.get('email')
     
         email_body = 'Hi, '+ name + "❤️\n\nI hope this message brings a smile to your face😄. Since you've found your way here, it's clear you've already made the best decision—saying yes to be my Valentine💘.\nThis is just a little confirmation that you'll be my Valentine, not just for today, but forever and ever. I'm so happy to have you in my life🥰 and I can't wait to create more beautiful memories together✨.\nUntil then, keep this thought close: you're pretty amazing💃🏻🌟.\n\nWith all my heart,\nArun🫶🏻"
 
@@ -36,7 +36,7 @@ def acceptence(request):
             '💌 A Special Message Just for You 💌',   #email subject
             email_body,  #message
             settings.EMAIL_HOST_USER,  #from
-            [settings.EMAIL_TO] #to
+            [email] #to
         )
 
         email_receive.fail_silently=False
